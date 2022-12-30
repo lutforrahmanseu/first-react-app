@@ -15,6 +15,7 @@ const Modal = ({ data, setData }) => {
           </label>
           <h3 className="text-lg font-bold">{data.name}</h3>
           <p className="py-4">{data.action}</p>
+          <h1>Price:{data.price}</h1>
         </div>
       </div>
     </div>
